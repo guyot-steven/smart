@@ -1,0 +1,74 @@
+/* INIT PAGE */
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+/* INIT PAGE */
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+    height: 70px;
+    display:flex;
+    color: white;
+}
+
+.logo{
+   margin-left: 10px;
+   font-family: 'Pacifico', cursive; 
+   font-size: 2em;
+   margin-top: 5px;
+}
+
+.box-list{
+  display:flex;
+  margin-top: 25px; 
+}
+
+.list-items{
+  margin-left: 10px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size:1.1em;
+}
+
+/* ./NAVBAR */
+
+/* PRESENTATION  */
+
+.box-presentation{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-presentation h1{
+    font-size: 5em;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 130px;
+    font-size: 1em;
+    border-radius: 3rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+h1{
+    font-family: 'Pacifico', cursive; 
+    font-size:3em;
+}
+/* ./PRESENTATION  */

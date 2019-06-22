@@ -1,0 +1,42 @@
+.box-vitrine{
+    display:flex;
+    /* background:blue; */
+    height:100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-phone{
+    /* background: red; */
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+.box-phone:hover{
+    transform: scale(1.2);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive; 
+}
+
+img{
+    height:450px;
+}
+
+.parent-barre{
+    display: flex;
+    justify-content: center;
+}
+
+.barre-noire{
+    height:5px;
+    width:50%;
+    background: black;
+    margin-top: -15px;
+    margin-bottom:35px;
+}

@@ -1,0 +1,22 @@
+.box-contact{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 20px;
+
+}
+
+.box-picture{
+    /* background-color: blue; */
+    padding: 20px;
+}
+.ma-photo{
+    border-radius: 6rem;
+    min-height: 200px;
+    margin-top:35px;
+}
+
+.box-information{
+    /* background-color: aqua; */
+    padding:20px;
+}
